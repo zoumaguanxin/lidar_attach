@@ -1,0 +1,6 @@
+<?xml version= "1.0" ?>
+<launch>
+	<node pkg="lidar_attach" type="lidar_attach_node" name="lidar_attach" output="screen">
+		<param name="config_path" value="$(find lidar_attach)/launch/camera.yaml"/>
+	</node>
+</launch>
